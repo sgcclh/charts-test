@@ -22,14 +22,14 @@ questions:
     label: Image Tag
 - variable: mysqlDatabase
   default: ""
-  description: "Name of database to create"
+  description: "要创建的数据库的名称"
   type: string
   required: true
   label: MySQL Database
   group: "MySQL Settings"
 - variable: mysqlUser
   default: ""
-  description: "Username of user to create"
+  description: "要创建的用户的用户名"
   type: string
   required: true
   label: MySQL Username
